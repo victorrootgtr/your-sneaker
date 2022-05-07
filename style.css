@@ -7,6 +7,7 @@
     box-sizing: border-box;
     font-size: 62.5%;
     list-style: none;
+    text-decoration: none;
 }
 
 body{
@@ -14,36 +15,52 @@ body{
     background-color: #000000;
     color: #FFFFFF;
 }
+/*********Formatação Cabeçalho***********/
 
 header{
-   
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 5rem;
+    margin: 5rem 5rem 0 5rem;
+    
     
 }
 
 .menu-esquerdo{
     display: flex;
-    gap: 1rem;
+    flex-direction: row;
+    gap: 5rem;
     font-size: 2.8rem;
     width: 8.9rem;
     height: 2.4rem;
     font-weight: 600;
     text-transform: uppercase;
-    line-height: 2.1rem;
-    padding-left: 2rem;
+    line-height: 2.3rem;
+    padding-left: 9rem;
+    
 }
 
-.titulo{
-  font-size: 3.2rem; 
-  text-transform: uppercase;
-  line-height: 3.9rem;
-  font-weight: 400;
-  color: rgba(189, 189, 189, 0.5);
-  
+.menu-esquerdo a {
+    display: flex;
+    font-size: 2.8rem;
+    color: #FFFFFF;
+    
+}
+
+.menu-esquerdo a:hover {
+    color: rgba(189, 189, 189, 1);
+}
+
+
+.titulo{ 
+    margin-left: 1rem; 
+    font-size: 3.2rem; 
+    text-transform: uppercase;
+    line-height: 3.9rem;
+    font-weight: 400;
+    color: rgba(189, 189, 189, 0.5);
+    
 }
 .titulo2{
     font-size: 3.2rem; 
@@ -52,10 +69,122 @@ header{
     font-weight: 700 bold;
     color:#FFFFFF;
     
-  }
+}
+
+.titulo .titulo2{
+    width: 28.8rem;
+    height: 3.9rem;
+}
 
 .menu-direito{
     padding-right: 2rem;
     display: flex;
-    gap: 5rem;
+    flex-direction: row;
+    gap: 5rem;   
 }
+
+.menu-direito a:hover{
+     color: rgba(189, 189, 189, 0.5);
+}
+
+.nike-logo{
+    display: flex;
+    flex-direction: row;
+    width: 6.3rem;
+    height: 2.3rem;
+    margin-top: 2rem;
+    margin-left:89.2rem;
+}
+    
+    /*******Formtação Main**********/
+main{
+    background: url(../img/jordan.png) no-repeat right center;
+    margin-top: 5rem;
+    margin-left: 15rem;
+    padding-top: 17rem;
+        
+}
+
+.conteudo-principal{
+    margin-right: 7rem;
+}
+
+.conteudo-principal h2{
+    width: 15.8rem;
+    height: 3rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    color:rgba(189, 189, 189, 1);
+    
+}
+
+.conteudo-principal h1{
+    width: 41rem;
+    height: 5.9rem;
+    font-size: 6rem;
+    font-weight: 700 bolder;
+    text-transform: uppercase;
+    line-height: 7rem;
+}
+
+.conteudo-principal h3{
+    width: 49rem;
+    height: 2.9rem;
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+
+section p{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.texto-main{
+    width: 46rem;
+    height: 12rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top:3rem;
+    color: rgba(255, 255, 255, 1);
+    
+}
+.especificacoes{
+    background: url(../img/seta.png) no-repeat right;
+    margin-top: 2rem;
+    margin-right: 4rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    
+}
+
+
+
+footer h2{
+    width: 8.5rem;
+    margin-top: 8rem;
+    margin-left: 87rem;
+    font-size: 3rem;
+}
+
+footer button{
+    margin-left: ;
+    font-size: 3.2rem;
+    font-weight: 700;
+    padding: 1.5rem 7.7rem 1.6rem 7.7rem;
+    border-radius: 1.7rem;
+    margin-top: 2rem;
+    margin-left: 79rem;
+    cursor: pointer;
+}
+
+footer button:hover{
+    background-color:rgba(189, 189, 189, 1);;
+    
+}
+
+
+
